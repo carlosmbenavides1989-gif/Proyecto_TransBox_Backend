@@ -9,8 +9,6 @@
 
 Este proyecto contiene una copia de presentación del backend de **TransBox** preparada para la evidencia de servicios web. Mantiene los servicios reales ya desarrollados de usuarios, roles, autenticación y seguridad, y agrega servicios funcionales para tres módulos centrales del proyecto: **pedidos, franjas de entrega y vehículos**.
 
-> Esta copia corresponde al alcance de la evidencia académica. El desarrollo principal de TransBox puede continuar por separado desde el punto en que se encontraba, sin necesidad de reemplazar el proyecto de trabajo.
-
 ## Arquitectura
 
 ```text
@@ -102,28 +100,6 @@ El script de apoyo para las tablas usadas en esta evidencia se encuentra en:
 database/transbox_db_servicios.sql
 ```
 
-## Ejecución en Windows
-
-Con MySQL iniciado y la base creada:
-
-```powershell
-.\mvnw.cmd spring-boot:run
-```
-
-Servidor local:
-
-```text
-http://localhost:8080
-```
-
-Para detener Spring Boot:
-
-```text
-Ctrl + C
-```
-
-Si CMD pregunta `¿Desea terminar el trabajo por lotes (S/N)?`, responder `S` y presionar Enter.
-
 ## Seguridad
 
 Los servicios utilizan Spring Security. Las contraseñas se almacenan con BCrypt y el campo `passwordHash` no se devuelve en las respuestas JSON.
@@ -134,3 +110,9 @@ Para facilitar las pruebas de API se habilitan dos mecanismos de autenticación:
 - HTTP Basic para clientes como Apidog.
 
 Los permisos se controlan por roles como `ADMINISTRADOR`, `VENDEDOR` y `EMPRESA`.
+
+## Repositorio
+
+https://github.com/carlosmbenavides1989-gif/Proyecto_TransBox_Backend
+
+Rama principal: `main`.
