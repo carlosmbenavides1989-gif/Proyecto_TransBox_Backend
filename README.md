@@ -7,7 +7,7 @@
 
 ## Descripción
 
-Este proyecto contiene una copia de presentación del backend de **TransBox** preparada para la evidencia de servicios web. Mantiene los servicios reales ya desarrollados de usuarios, roles, autenticación y seguridad, y agrega servicios funcionales para tres módulos centrales del proyecto: **pedidos, franjas de entrega y vehículos**.
+Este proyecto contiene el componente backend de **TransBox**, desarrollado mediante servicios web REST para la gestión de los procesos principales de la plataforma. Incluye servicios para usuarios, roles, autenticación y seguridad, así como para los módulos de **pedidos, franjas de entrega y vehículos**.
 
 ## Arquitectura
 
