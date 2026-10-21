@@ -80,8 +80,6 @@ La documentación detallada se encuentra en:
 
 ```text
 docs/DOCUMENTACION_SERVICIOS.md
-docs/PRUEBAS_SERVICIOS.md
-docs/openapi.yaml
 ```
 
 El archivo `openapi.yaml` documenta formalmente los endpoints REST mediante OpenAPI 3.0.
