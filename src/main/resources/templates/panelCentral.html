@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Principal - TransBox</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="nav-container">
+            <a href="panelCentral.html">
+                <img src="/img/icono_transbox-removebg-preview (1).png" class="logo-navbar" alt="TransBox">
+            </a>
+
+            <div class="menu">
+                <a class="" href="presentacionProyecto.html">Presentación</a>
+                <a class="active" href="panelCentral.html">Panel</a>
+                <a class="" href="gestionPedidos.html">Pedidos</a>
+                <a class="" href="franjasEntregas.html">Franjas</a>
+                <a class="" href="moduloMensajes.html">Mensajes</a>
+                <a class="" href="vehiculos.html">Vehículos</a>
+                <a class="" href="gestionUsuario.html">Usuarios</a>
+                <a class="" href="reportes.html">Reportes</a>
+                <span>Bienvenido, [Nombre]</span>
+            </div>
+
+            <a href="loginUltimate.html" class="btn-session">Cerrar sesión</a>
+        </div>
+    </div>
+
+    <section class="hero-section">
+        <img src="img/icono_transbox-removebg-preview (1).png" class="hero-logo" alt="TransBox">
+
+        <h1 class="hero-title">Panel Principal</h1>
+
+        <p class="hero-subtitle">
+            Monitorea pedidos almacenados y confirma la disponibilidad del cliente para evitar entregas fallidas.
+        </p>
+    </section>
+
+    <div class="container">
+
+        <div class="grid-4">
+
+            <div class="stat-card">
+                <div class="stat-number">120</div>
+                <div class="stat-label">Pedidos totales</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-number">45</div>
+                <div class="stat-label">Almacenados</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-number">30</div>
+                <div class="stat-label">Pendientes confirmación</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Sin respuesta</div>
+            </div>
+
+        </div>
+
+        <div class="section-card">
+
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">Pedidos críticos</h2>
+
+                    <p class="section-subtitle">
+                        Seguimiento de pedidos que requieren confirmación del cliente.
+                    </p>
+                </div>
+
+                <a href="gestionPedidos.html" class="btn-blue">Crear pedido</a>
+            </div>
+
+            <div class="table-wrap">
+                <table>
+                    <tr>
+                        <th>Guía</th>
+                        <th>Cliente</th>
+                        <th>Producto</th>
+                        <th>Estado</th>
+                        <th>Fecha límite</th>
+                        <th>Acción</th>
+                    </tr>
+
+                    <tr>
+                        <td>TBX-001</td>
+                        <td>Ana Martínez</td>
+                        <td>TV 55"</td>
+                        <td>
+                            <span class="badge badge-yellow">Almacenado</span>
+                        </td>
+                        <td>24/03/2026</td>
+                        <td>
+                            <button class="btn-yellow">Notificar</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>TBX-002</td>
+                        <td>Juan Pérez</td>
+                        <td>Nevera</td>
+                        <td>
+                            <span class="badge badge-blue">Pendiente confirmación</span>
+                        </td>
+                        <td>25/03/2026</td>
+                        <td>
+                            <button class="btn-yellow">Reenviar</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>TBX-003</td>
+                        <td>Laura Gómez</td>
+                        <td>Lavadora</td>
+                        <td>
+                            <span class="badge badge-green">Programado</span>
+                        </td>
+                        <td>26/03/2026</td>
+                        <td>
+                            <button class="btn-outline">Ver</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

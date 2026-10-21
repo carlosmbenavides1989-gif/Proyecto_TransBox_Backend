@@ -1,0 +1,15 @@
+
+package com.transbox_backend.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class PanelController {
+
+    @GetMapping("/panelCentral.html")
+    public String mostrarPanel() {
+
+        return "panelCentral";
+    }
+}
